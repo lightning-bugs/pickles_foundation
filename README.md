@@ -36,26 +36,18 @@ That's cool! Check out the [Jekyll introduction](http://jekyllrb.com/docs/home/)
         $ gem install sass
         $ gem install bourbon
         $ gem install neat
-4. Once these are installed, go into the folder where you're going to keep your Sass stylesheets and run the following commands:
-
-        $ bourbon install
-        $ neat install
-5. Then in your primary stylesheet, add the two following imports to the top of your file:
-
-        @import "bourbon/bourbon";
-        @import "neat/neat";
-6. Now you can copy the Jekyll Kickoff files to your computer (choose "Clone to Desktop" or "Download .zip" on the right-hand side) and put them in your project folder.
-7. Create the missing directories. You'll likely want a structure that looks something like this [directory example](https://gist.github.com/jenmyers/6692284).
-8. Now we can fire up Jekyll. In your command line, type:
+4. Now you can copy the Jekyll Kickoff files to your computer (choose "Clone to Desktop" or "Download .zip" on the right-hand side) and put them in your project folder.
+5. Create the missing directories. You'll likely want a structure that looks something like this [directory example](https://gist.github.com/jenmyers/6692284).
+6. Now we can fire up Jekyll. In your command line, type:
  
         $ jekyll serve --watch  
 This starts the local server and tells it to automatically watch for changes you make.
-9. Open a new command line window or tab and type:
+7. Open a new command line window or tab and type:
 
         $ sass --watch assets/scss/screen.scss:assets/css/screen.css
 This tells Sass to watch for changes you make to the Sass/SCSS. files and compile them to CSS.
-10. Open your web browser and go to: __http://localhost:4000__. You should see the HTML5 Boilerplate welcome message.
-11. Now you're ready to build! As you make changes to your HTML and Sass/SCSS, Jekyll will automatically rebuild the site and put all the compiled files into a folder called "_site." You can refresh your browswer window to see the changes displayed.
+8. Open your web browser and go to: __http://localhost:4000__. You should see the HTML5 Boilerplate welcome message.
+9. Now you're ready to build! As you make changes to your HTML and Sass/SCSS, Jekyll will automatically rebuild the site and put all the compiled files into a folder called "_site." You can refresh your browswer window to see the changes displayed.
 
 If you're also just getting started with [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io/) and [Neat](http://neat.bourbon.io/), check out their sites for more documentation and help.
 
